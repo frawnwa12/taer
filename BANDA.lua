@@ -3744,7 +3744,7 @@ https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. ms
 end
 
 
-if text == 'استروكس or text == 'ستروكس' or text == 'مبرمج السورس' then
+if text == 'استروكس 'or text == 'ستروكس' or text == 'مبرمج السورس' then
 local Text = [[
 المبرمج استروكس لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓
