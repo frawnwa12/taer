@@ -1948,7 +1948,7 @@ tdcli_function ({ ID = "GetMessage", chat_id_ = msg.chat_id_, message_id_ = tonu
 end
 if text == 'الاصدار' and Debn(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,' ◍ اصدار سورس تايجر{ S:12✓}')
+send(msg.chat_id_, msg.id_,' ◍ اصدار سورس تايجر{ S:13✓}')
 end
 if text == '⇣───「 قـناه المطورين」───⇣' then
 local Text = [[ 
@@ -3734,24 +3734,24 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖤍 𝗗𝙀𝗩 𝗔𝗦𝙏𝙊𝙍𝙊𝗞𝗦 𖤍',url="t.me/A_st_ro_ks"}},
-{{text = '𖤍𝗗𝙀𝗩 𝗕𝙄𝗞𝗔𖤍', url="t.me/UU_P12"}},
-{{text = '𝗖𝗛 𝙏𝗔𝙀𝗚𝗔𝙍', url="t.me/AstrokswaxBeka"}},
+{{text = '𝙳𝙴𝚅 𝙰𝚂𝚃𝙾𝚁𝙾𝙺𝚂',url="t.me/A_st_ro_ks"}},
+{{text = '𝙳𝙴𝚅 𝙱𝙸𝙺𝙰', url="t.me/UU_P12"}},
+{{text = '𝙲𝙷 𝚃𝙰𝙴𝙶𝙰𝚁', url="t.me/AstrokswaxBeka"}},
 {{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./Banda.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/frawnwafr/3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/AstrokswaxBeka&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 
-if text == 'استروكس 'or text == 'ستروكس' or text == 'مبرمج السورس' then
+if text == 'استروكس' or text == 'ستروكس' or text == 'مبرمج السورس' then
 local Text = [[
 المبرمج استروكس لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖤍 𝗗𝙀𝗩 𝗔𝗦𝙏𝙊𝙍𝙊𝗞𝗦 𖤍',url="t.me/A_st_ro_ks"}},
+{{text = '𝙳𝙴𝚅 𝙰𝚂𝚃𝙾𝚁𝙾𝙺𝚂',url="t.me/A_st_ro_ks"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/A_st_ro_ks&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3763,7 +3763,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖤍𝗩𝙊𝗗𝙄𝗞𝗔𖤍',url="t.me/DV_Vo_Dk_A1"}},
+{{text = '𝚅𝙾𝙳𝙺𝙰',url="t.me/DV_Vo_Dk_A1"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/DV_Vo_Dk_A1&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3775,7 +3775,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖤍𝗗𝙀𝗩 𝗙𝙍𝗔𝙒𝗡𖤍',url="t.me/DEV_FRAWN"}},
+{{text = '𝙳𝙴𝚅 𝙵𝚁𝙰𝚆𝙽 𝚆𝙰',url="t.me/DEV_FRAWN"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/DEV_FRAWN&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3787,7 +3787,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖤍𝗗𝙀𝗩 𝗕𝙄𝗞𝗔𖤍',url="t.me/UU_P12"}},
+{{text = '𝙳𝙴𝚅 𝙱𝙸𝙺𝙰',url="t.me/UU_P12"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/UU_P12&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
