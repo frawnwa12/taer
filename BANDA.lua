@@ -154,7 +154,7 @@ print([[
 تم برمجت السورس بوصتت فرعون وفودكا 
 
 فرعون للمعلومات
-𖤍 𝙁𝙍𝘼𝙒𝙉 𝙒𝘼 𖤍
+𖤍𝙁𝙍𝘼𝙒𝙉 𝙒𝘼𖤍
 > CH › @AstrokswaxBeka
 ~> DEVELOPER › @A_st_ro_ks
 ]])
@@ -2010,7 +2010,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𖤍 𝗗𝙀𝗩 𝗔𝗦𝙏𝙊𝙍𝙊𝗞𝗦 𖤍', url="t.me/Q_0_ll"}}, 
+{{text = '𖤍 𝗗𝙀𝗩 𝗔𝗦𝙏𝙊𝙍𝙊𝗞𝗦 𖤍', url="t.me/A_st_ro_ks"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3730,17 +3730,17 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 local Text = [[
-𝑊𝐸𝐿𝐶𝑂𝑀𝐸 𝑆𝑂𝐔𝑅𝐶𝐸𖠕𝐸𝑉𝐸𝑁
+[𝙒𝙀𝗟𝗖𝙊𝗠𝙀 𝗦𝙊𝙐𝙍𝗖𝙀 𝙏𝗔𝙀𝗚𝗔𝙍](https://t.me/AstrokswaxBeka)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ᏙΌᎠᎥᏦᎪ!',url="t.me/DV_Vo_Dk_A1"},{text = 'ᎻᎪᎡᏴΌᏦᎪᎪ!',url="t.me/DvH7rboka_A3"}},
-{{text = 'ᎷᎪᎡᎥΌ', url="t.me/M_a_R_i_o22"},{text = 'ᎬᏞՏᎪᎬᎬᎠY', url="t.me/DV_SA_3EDY_A1"}},
-{{text = 'ᏟᎻ ᎬᏙᎪᏞ', url="t.me/E_V_EN"},{text = 'ͲᎳՏΌᏞ', url="t.me/m_a_r_i_os"}},
+{{text = '𖤍 𝗗𝙀𝗩 𝗔𝗦𝙏𝙊𝙍𝙊𝗞𝗦 𖤍',url="t.me/A_st_ro_ks"}},
+{{text = '𖤍𝗗𝙀𝗩 𝗕𝙄𝗞𝗔𖤍', url="t.me/UU_P12"}},
+{{text = '𝗖𝗛 𝙏𝗔𝙀𝗚𝗔𝙍', url="t.me/AstrokswaxBeka"}},
 {{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./Banda.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/E_V_EN&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/frawnwafr/3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 
@@ -3751,7 +3751,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖤍 𝗗𝙀𝗩 𝗔𝗦𝙏𝙊𝙍𝙊𝗞𝗦 𖤍',url="t.me/Q_0_ll"}},
+{{text = '𖤍 𝗗𝙀𝗩 𝗔𝗦𝙏𝙊𝙍𝙊𝗞𝗦 𖤍',url="t.me/A_st_ro_ks"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/A_st_ro_ks&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3763,46 +3763,34 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ᏙΌᎠᎥᏦᎪ',url="t.me/DV_Vo_Dk_A1"}},
+{{text = '𖤍𝗩𝙊𝗗𝙄𝗞𝗔𖤍',url="t.me/DV_Vo_Dk_A1"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/DV_Vo_Dk_A1&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text == 'حربوكا'  then
+if text == 'فرعون'  then
 local Text = [[
-yمالك السورس لؤ عٲيز تتؤٲصل معٲه
+المبرمج فرعون الكبير لؤ عٲيز تتؤٲصل معٲه
 اتبع الزر إلى تحت ↓
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ᎻᎪᎡᏴΌᏦᎪᎪ',url="t.me/DvH7rboka_A3"}},
+{{text = '𖤍𝗗𝙀𝗩 𝗙𝙍𝗔𝙒𝗡𖤍',url="t.me/DEV_FRAWN"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/DvH7rboka_A3&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/frawnwafr/2&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text == 'الصعيدي'  then
+if text == 'بيكا'  then
 local Text = [[
-مبرمج السورس لؤ عٲيز تتؤٲصل معٲه
+مالك السورس لؤ عٲيز تتؤٲصل معٲه
 اتبع الزر إلى تحت ↓
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ᎬᏞՏᎪᎬᎬᎠY',url="t.me/DV_SA_3EDY_A1"}},
+{{text = '𖤍𝗗𝙀𝗩 𝗕𝙄𝗞𝗔𖤍',url="t.me/UU_P12"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/DV_SA_3EDY_A1&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
-end
-if text == 'ماريو'  then
-local Text = [[
-مطور السورس لؤ عٲيز تتؤٲصل معٲه
-اتبع الزر إلى تحت ↓
-]]
-keyboard = {} 
-keyboard.inline_keyboard = {
-{{text = 'ᎷᎪᎡᎥΌ',url="t.me/M_a_R_i_o22"}},
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/M_a_R_i_o22&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/UU_P12&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == 'يوتيوب' or text == 'بحث' or text == 'اليوتيوب' then
@@ -3916,7 +3904,7 @@ local TWEET_Msg = {
 "روايتك المفضله ?", 
 "اخر اكله اكلتها", 
 "اخر كتاب قرآته", 
-"ليه باندا جدع؟ ", 
+"ليه استروكس جدع؟ ", 
 "افضل يوم ف حياتك", 
 "ليه مضيفتش كل جهاتك", 
 "حكمتك ف الحياه", 
@@ -4146,7 +4134,7 @@ local TWEET_Msg = {
   "تتوقع إنك بتتزوج اللي تحبه؟ ",
   "ما هو أمنيتك؟ ",
   "وين تشوف نفسك بعد خمس سنوات؟ ",
-  "هل انت حرامي تويت بتعت باندا؟ ",
+  "هل انت حرامي تويت بتعت استروكس؟ ",
   "لو خيروك تقدم الزمن ولا ترجعه ورا؟ ",
   "لعبة قضيت وقتك فيه بالحجر المنزلي؟ ",
   "تحب تطق الميانة ولا ثقيل؟ ",
@@ -4154,7 +4142,7 @@ local TWEET_Msg = {
   "اول ماتصحى من النوم مين تكلمه؟ ",
   "عندك الشخص اللي يكتب لك كلام كثير وانت نايم؟ ",
   "قد قابلت شخص تحبه؟ وولد ولا بنت؟ ",
-   "هل انت تحب باندا؟ ",
+   "هل انت تحب استروكس؟ ",
 "اذا قفطت احد تحب تفضحه ولا تستره؟ ",
   "كلمة للشخص اللي يسب ويسطر؟ ",
   "آية من القران تؤمن فيه؟ ",
@@ -4166,7 +4154,7 @@ local TWEET_Msg = {
   "اذكر موقف ماتنساه بعمرك؟ ",
   "وش حاب تقول للاشخاص اللي بيدخل حياتك؟ ",
   "ألطف شخص مر عليك بحياتك؟ ",
-   "هل باندا لطيف؟ ",
+   "هل استروكس لطيف؟ ",
 "انت من الناس المؤدبة ولا نص نص؟ ",
   "كيف الصيد معاك هالأيام ؟ وسنارة ولاشبك؟ ",
   "لو الشخص اللي تحبه قال بدخل حساباتك بتعطيه ولا تكرشه؟ ",
@@ -4195,7 +4183,7 @@ local TWEET_Msg = {
   "انسان م تحب تتعامل معاه ابداً ؟ ",
   "شيء بسيط تحتفظ فيه؟ ",
   "فُرصه تتمنى لو أُتيحت لك ؟ ",
-   "لي باندا ناك اليكس؟ ",
+   "لي استروكس ناك اليكس؟ ",
   "شيء مستحيل ترفضه ؟. ",
   "لو زعلت بقوة وش بيرضيك ؟ ",
   "تنام بـ اي مكان ، ولا بس غرفتك ؟ ",
